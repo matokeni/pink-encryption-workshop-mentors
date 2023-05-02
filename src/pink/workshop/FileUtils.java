@@ -8,7 +8,7 @@ public class FileUtils {
   /**
    * Reads the file content as a byte array
    *
-   * @param filepath - for example: Riddle1/encr.ypt
+   * @param filepath - for example: Workshop/my-code-works.png
    * @return byte array of the file content
    */
   public static byte[] readFileAsBytes(String filepath) {
@@ -23,7 +23,7 @@ public class FileUtils {
    * Writes the byte array to a file under the resources folder
    *
    * @param fileContent - byte array of the file content
-   * @param filepath - for example: Riddle1/encr.ypt
+   * @param filepath - for example: Workshop/my-code-works.png
    */
   public static void writeFile(byte[] fileContent, String filepath) {
     try {
