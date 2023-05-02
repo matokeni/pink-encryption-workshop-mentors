@@ -18,8 +18,8 @@ import pink.workshop.FileUtils;
  *            |   |                                                          |    |
  *            |   |  1.File name changed: "Riddle3.png" -> "encr.ypt"        |    |
  *            |   |  2.ENCRYPTING with CBC                                   |    |
- *            |   |    WARNING: IV and key are the same, not recommended:    |    |
- *            |   |         "PinkPinkPinkPink"                               |    |
+ *            |   |    Using first 16 bytes of "Riddle3.png" as KEY          |    |
+ *            |   |    WARNING: IV and KEY are the same, not recommended!    |    |
  *            |   |                                                          |    |
  *            |   |                                                          |    |
  *            |   |    PROGRESS:                                             |    |
@@ -35,6 +35,9 @@ import pink.workshop.FileUtils;
  * You stop the program immediately, but now you have to decrypt the client's damaged file...
  * You're so glad that you saw this window, it gave you some great hints about fixing
  * the issue! :)
+ *
+ * Extra hint: if you need to manipulate byte arrays: https://mkyong.com/java/java-how-to-join-and-split-byte-arrays-byte/
+ * Extra hint 2: if you want to do magic with HEX <-> byte conversions: https://www.baeldung.com/java-hexformat
  */
 public class Riddle3 {
 
