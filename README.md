@@ -24,7 +24,7 @@ In the project you can find the following things:
 * The `pink.workshop` package contains the classes where we will be writing our code during the workshop
   * `FileUtils` is there to help us read and write files
   * We will implement the empty methods in `CBC`, `RSA` and `XOR`
-* The `pink.riddle` package contains the riddles you will be solving during the second half of the workshop!
-* The `resources` folder contains files connected to your riddles, each riddle has its own folder
+* As we reach the second half of the workshop, I will add the `pink.riddle` package to the project, which will contain the riddles you will be solving!
+* The `resources` folder contains files we can play with during the coding, and in the second half of the worskop I will be adding extra files here for each riddle
 
 Exciting, right? ;) See you soon!
